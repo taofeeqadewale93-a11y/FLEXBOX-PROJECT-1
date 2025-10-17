@@ -32,11 +32,7 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    padding: 25px;
-    
-     
 }
-
 
 #nav ul{
     display: flex;
@@ -64,15 +60,18 @@ body{
 
 #hero .container{
     display: flex;
-    
-
+    justify-content: space-around;
 }
+#hero .container img{
+    width: 400px;
+}
+
 #hero .container .hero-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: rgb(247, 248, 248);
-    padding: 110px;
+    padding: 40px;
 
 }
 
@@ -105,4 +104,5 @@ body{
     flex-direction: column;
     font-weight: 500;
     padding: 10px;
+
 }
